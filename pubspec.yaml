@@ -1,0 +1,71 @@
+name: sensor_sentinel
+description: A new Flutter project for ground truth data collection.
+version: 1.2.0+13
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0
+  provider: ^6.1.1
+  crypto: ^3.0.3
+  geolocator: ^13.0.2
+  permission_handler: ^12.0.1
+  h3_flutter: ^0.7.1
+  shared_preferences: ^2.5.4
+  uuid: ^4.5.2
+  share_plus: ^12.0.1
+  wakelock_plus: ^1.4.0
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  sensors_plus: ^6.1.1
+  wifi_scan: ^0.4.1+2
+  noise_meter: ^5.1.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  connectivity_plus: ^6.1.0
+  http: ^1.2.0
+  network_info_plus: ^7.0.0
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  flutter_blue_plus: ^2.1.0
+  sentry_flutter: ^8.12.0
+  url_launcher: ^6.2.5
+  package_info_plus: ^9.0.0
+  flutter_svg: ^2.2.3
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  path_provider: ^2.1.2
+  ambient_light: ^0.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.24.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png
+    - assets/icon/qbit_coin.png
+    - assets/icon/smartsensor_title.png
+    - assets/icon/google_logo.png
+    - assets/icon/alipay_logo.png
+    - assets/icon/wechat_logo.png
+    - assets/icon/Apple_logo.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  image_path_ios: "assets/icon/ios_icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#121212"
+    theme_color: "#00FFFF"
